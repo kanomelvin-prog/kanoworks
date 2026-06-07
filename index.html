@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kano Works — AI products for the built world</title>
+  <meta name="description" content="Kano Works designs and builds AI products for the built world — by a civil-engineering insider who ships real products." />
+  <meta name="color-scheme" content="light" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kano Works" />
+  <meta property="og:description" content="AI products, designed and built for the built world." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kanoworks.io" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="Kano Works home">
+      Kano&nbsp;Works<sup class="tm" aria-hidden="true">™</sup>
+    </a>
+    <nav class="masthead-nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- 1. HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <p class="kicker"><span class="kicker-mark" aria-hidden="true">◆</span> AI&nbsp;×&nbsp;the built world</p>
+      <h1 id="hero-heading" class="display">
+        AI products, designed and built for the&nbsp;built&nbsp;world.
+      </h1>
+      <p class="lede">
+        A civil-engineering insider — transportation and Civil&nbsp;3D — who designs
+        and ships real products.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn--solid" href="#contact">Start a conversation</a>
+        <a class="btn btn--ghost" href="#work">See selected work</a>
+      </div>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- 2. WHAT I DO -->
+    <section class="section what" id="about" aria-labelledby="what-heading">
+      <p class="index-label"><span aria-hidden="true">01</span> What I do</p>
+      <div class="what-grid">
+        <h2 id="what-heading" class="section-title">
+          I sit in the overlap, and&nbsp;build for it.
+        </h2>
+        <div class="prose">
+          <p>
+            Most product designers have never opened Civil&nbsp;3D. Most of the people
+            who live in it have never shipped a product. I sit in the middle.
+          </p>
+          <p>
+            I know the workflows of the built world from the inside — transportation,
+            grading, the daily grind of design software — and I know how to take an idea
+            all the way to something people actually use. Design and build, end to end:
+            AI products made for the work, by someone who has done the work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- 3. SELECTED WORK -->
+    <section class="section work" id="work" aria-labelledby="work-heading">
+      <p class="index-label"><span aria-hidden="true">02</span> Selected work</p>
+      <h2 id="work-heading" class="section-title">Selected work</h2>
+      <p class="scaffold-note" role="note">
+        Scaffolding — case studies are in progress. The cards below are placeholders;
+        nothing here is a finished claim or result.
+      </p>
+
+      <ul class="work-grid" role="list">
+        <li class="work-card">
+          <span class="work-card__tag">Case study in progress</span>
+          <h3 class="work-card__name">Alo</h3>
+          <p class="work-card__meta">Clinical AI companion</p>
+        </li>
+        <li class="work-card">
+          <span class="work-card__tag">Case study in progress</span>
+          <h3 class="work-card__name">RAB Designer</h3>
+          <p class="work-card__meta">Product — write-up coming</p>
+        </li>
+        <li class="work-card work-card--empty" aria-hidden="true">
+          <span class="work-card__tag">Slot</span>
+          <h3 class="work-card__name">Future case study</h3>
+          <p class="work-card__meta">—</p>
+        </li>
+        <li class="work-card work-card--empty" aria-hidden="true">
+          <span class="work-card__tag">Slot</span>
+          <h3 class="work-card__name">Future case study</h3>
+          <p class="work-card__meta">—</p>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- 4. CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <p class="index-label"><span aria-hidden="true">03</span> Contact</p>
+      <h2 id="contact-heading" class="section-title contact-title">
+        Building something for the built world?
+      </h2>
+      <p class="contact-lede">
+        Tell me what you’re working on. I read every message.
+      </p>
+      <a class="email-cta" href="mailto:hello@kanoworks.io">hello@kanoworks.io</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-brand">Kano Works</span>
+    <span class="footer-copy">© <span id="year">2026</span> Kano Works</span>
+  </footer>
+
+  <script>
+    // Progressive enhancement: keep the footer year current. Falls back to 2026 without JS.
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
