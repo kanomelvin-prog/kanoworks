@@ -1,9 +1,9 @@
-# CLAUDE.md — Kano Works
+# CLAUDE.md — KanoWorks
 
 Guidance for Claude Code when working in this repository.
 
 ## What this is
-A single-page marketing site for **Kano Works** (kanoworks.io). The entire site is one
+A single-page marketing site for **KanoWorks** (kanoworks.io). The entire site is one
 self-contained `index.html` — markup plus an inline `<style>` block, no separate
 stylesheet, no build step, no framework, no bundler. Deployed via **GitHub Pages** on
 push to `main` (repo: public `kanomelvin-prog/kanoworks`); the custom domain is set by
@@ -33,7 +33,10 @@ Follow this for every working session:
 - Keep it fast: minimal fonts, no tracking scripts, no third-party embeds without approval.
 
 ## Brand basics
-- Wordmark: **Kano Works™** (the ™ appears on the wordmark only, nowhere else).
+- Wordmark: **KanoWorks** — one word, camel case, no ™.
+- Naming ruling 2026-09-06: KanoWorks one word everywhere — wordmark, domain, handles.
+  'Kano Works' two-word form and 'Kano Studios' are retired. No second-tier parent brand
+  (EM Studios rejected on collision check).
 - Positioning: AI products, designed and built for the built world — by a civil-engineering
   insider (transportation, Civil 3D) who designs and ships real products.
 - Voice: confident, plainspoken, maker/foundry. No hype, no invented clients or results.
