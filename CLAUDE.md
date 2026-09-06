@@ -42,5 +42,6 @@ Follow this for every working session:
 - Voice: confident, plainspoken, maker/foundry. No hype, no invented clients or results.
 
 ## Git
-- Commit message format: `chat: [what changed]`
+- Commit message format: a plain sentence-case subject describing what changed —
+  no prefix or tag (e.g. `Fix LinkedIn link`).
 - Push to `main` triggers the GitHub Pages deploy.
