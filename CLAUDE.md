@@ -40,6 +40,7 @@ Follow this for every working session:
 - Positioning: AI products, designed and built for the built world — by a civil-engineering
   insider (transportation, Civil 3D) who designs and ships real products.
 - Voice: confident, plainspoken, maker/foundry. No hype, no invented clients or results.
+- Contact address: `kano@kanoworks.io` (the only address shown on the site).
 
 ## Git
 - Commit message format: a plain sentence-case subject describing what changed —
