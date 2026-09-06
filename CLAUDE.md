@@ -3,13 +3,16 @@
 Guidance for Claude Code when working in this repository.
 
 ## What this is
-A single-page marketing site for **Kano Works** (kanoworks.io). Static HTML/CSS/JS,
-no build step, no framework, no bundler. Deployed via **Cloudflare Pages** on push to
-`main` (repo: private `kanomelvin-prog/kanoworks`).
+A single-page marketing site for **Kano Works** (kanoworks.io). The entire site is one
+self-contained `index.html` — markup plus an inline `<style>` block, no separate
+stylesheet, no build step, no framework, no bundler. Deployed via **GitHub Pages** on
+push to `main` (repo: public `kanomelvin-prog/kanoworks`); the custom domain is set by
+the root `CNAME` file.
 
 ## File structure
-- `index.html` — the site (edit directly; there is no separate dev copy)
-- `styles.css` — stylesheet
+- `index.html` — the whole site, markup and CSS together (edit directly; there is no
+  separate dev copy, and no separate `styles.css`)
+- `CNAME` — custom domain for GitHub Pages; contains exactly `kanoworks.io`
 - `docs/` — planning notes only; **not** linked from or served as site content
 - No external JS libraries. System fonts or Google Fonts only.
 
@@ -25,6 +28,7 @@ Follow this for every working session:
 - Mobile-first, responsive.
 - Accessible: semantic HTML, landmark elements, AA contrast (4.5:1), alt text on images.
 - CSS custom properties for color/spacing — no scattered hardcoded values.
+- Keep CSS in the single inline `<style>` block; do not reintroduce an external stylesheet.
 - No `!important` unless truly unavoidable.
 - Keep it fast: minimal fonts, no tracking scripts, no third-party embeds without approval.
 
@@ -36,4 +40,4 @@ Follow this for every working session:
 
 ## Git
 - Commit message format: `chat: [what changed]`
-- Push to `main` triggers the Cloudflare Pages deploy.
+- Push to `main` triggers the GitHub Pages deploy.
